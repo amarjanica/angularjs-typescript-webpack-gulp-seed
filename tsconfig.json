@@ -1,0 +1,12 @@
+// all options are listed here: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    // Raise error on expressions and declarations with an implied any type
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    // Allow JavaScript files to be compiled
+    "allowJs": true
+  }
+}

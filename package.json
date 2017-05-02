@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-typescript-webpack-gulp-seed",
+  "version": "1.0.0",
+  "description": "Seed application",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp server"
+  },
+  "author": "Ana Marjanica",
+  "devDependencies": {
+    "@types/angular": "^1.6.16",
+    "exports-loader": "^0.6.4",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-util": "^3.0.8",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1"
+  }
+}

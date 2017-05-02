@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello World</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body ng-app="myApp">
+
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a class="btn btn-default" ui-sref="home">Home</a>
+    <a class="btn btn-default" ui-sref="shopping-list">Shopping list</a>
+</div>
+
+<div class="container" ui-view></div><!-- /.container -->
+
+
+<script src="/dist/vendors.bundle.js"></script>
+<script src="/dist/main.bundle.js"></script>
+
+</body>
+</html>
